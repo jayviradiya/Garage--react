@@ -47,7 +47,7 @@ const Home = () => {
       <Container fluid className='mt-4  '>
         <Row>
           <div className='p-0'>
-            <img height="" className='w-100 p-0 position-relative' src="https://www.total911.com/wp-content/uploads/2014/03/Total-911-dream-garage.jpg" alt="" />
+            <img height="" className='w-100 p-0 position-relative' src="./main-image/garage-wallpapers.jpg" alt="" />
           </div>
           <div className='pos-ab '>
             <div className="black-box p-5 ms-4 text-white">
