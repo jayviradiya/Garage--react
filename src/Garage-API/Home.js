@@ -47,7 +47,7 @@ const Home = () => {
       <Container fluid className='mt-4  '>
         <Row>
           <div className='p-0'>
-            <img height="" className='w-100 p-0 position-relative' src="./main-image/garage-wallpapers.jpg" alt="" />
+            <img height="" className='w-100 p-0 position-relative' src="https://wallpapercave.com/wp/wp4334097.jpg" alt="" />
           </div>
           <div className='pos-ab '>
             <div className="black-box p-5 ms-4 text-white">
@@ -67,7 +67,7 @@ const Home = () => {
           <Row>
             <div className="col-6 position-relative ">
               <div className=''>
-                <img className='w-100 position-relative' src="https://duruthemes.com/demo/html/carex/img/about.jpg" alt="" />
+                <img className='w-100 position-relative' src="https://assets.architecturaldigest.in/photos/600825b81363405bf8eb5086/16:9/w_2560%2Cc_limit/Garage-Rend_03_A-1366x768.jpg" alt="" />
               </div>
             </div>
             <div className="col-6 ps-5">
