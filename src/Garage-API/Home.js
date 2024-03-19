@@ -22,7 +22,7 @@ const Home = () => {
   const history = useHistory()
 
   const getService = () => {
-    axios.get('http://localhost:3001/service/find')
+    axios.get('https://garage-project.onrender.com/service/find')
       .then((res) => {
         console.log(res.data.data);
         setService(res.data.data)
@@ -98,7 +98,7 @@ const Home = () => {
               service.map((el, index) => {
                 return <Card style={{ width: '363px' }} key={index} onClick={card} className='p-0  box pos-rel'>
                   <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
-                  <div className="img-box"><Card.Img variant="top" className='p-0' src={'http://localhost:3001/images/' + el.image} /></div>
+                  <div className="img-box"><Card.Img variant="top" className='p-0' src={'https://garage-project.onrender.com/images/' + el.image} /></div>
                   <Card.Body>
                     <div className='icon-color'><Card.Title className='pt-1 mb-2 fw-bold  text-uppercase' >{el.serviceName}</Card.Title></div>
                     <p className='pt-1  mb-2 fs-18'>{el.decription}</p>

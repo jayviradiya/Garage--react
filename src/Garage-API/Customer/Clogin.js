@@ -23,7 +23,7 @@ const Clogin = () => {
           }}
           validationSchema={loginschema}
           onSubmit={async (values) => {
-            axios.post('http://localhost:3001/customer/login', values)
+            axios.post('https://garage-project.onrender.com/customer/login', values)
               .then((res) => {
                 console.log(res.data.data);
                 localStorage.setItem('customertoken', res.data.token)

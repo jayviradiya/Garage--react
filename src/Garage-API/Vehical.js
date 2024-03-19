@@ -28,7 +28,7 @@ const Vehical = () => {
                     }}
                     validationSchema={vehicalschema}
                     onSubmit={async (values) => {
-                        axios.post('http://localhost:3001/vehicle/create', values,
+                        axios.post('https://garage-project.onrender.com/vehicle/create', values,
                             {
                                 headers: { customertoken: token }
                             })

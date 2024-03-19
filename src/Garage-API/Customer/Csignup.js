@@ -33,7 +33,7 @@ const Csignup = () => {
                     }}
                     validationSchema={Signupschema}
                     onSubmit={async (values) => {
-                        axios.post('http://localhost:3001/customer/signup', values)
+                        axios.post('https://garage-project.onrender.com/customer/signup', values)
                             .then((res) => {
                                 console.log(res.data.data);
                                 history.push('/customer-login')

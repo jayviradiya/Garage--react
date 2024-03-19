@@ -19,7 +19,7 @@ const Service = () => {
         form.append('decription', values.decription);
         form.append('cost', values.cost);
 
-        axios.post('http://localhost:3001/service/create', form,
+        axios.post('https://garage-project.onrender.com/service/create', form,
             {
                 headers: {
                     techniciantoken: techniciantoken,
