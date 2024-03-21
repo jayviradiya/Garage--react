@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
+import IMG7 from '../Garage-API/Img/IMG7.jpg'
 import { Container, Row } from 'react-bootstrap';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { PiArrowBendRightDownFill } from "react-icons/pi";
@@ -20,7 +21,7 @@ const About = () => {
             <Container fluid className='mt-5  '>
                 <Row>
                     <div className='p-0'>
-                        <img height="" className='w-100 p-0 ' src="https://assets.architecturaldigest.in/photos/600825b81363405bf8eb5086/16:9/w_2560%2Cc_limit/Garage-Rend_03_A-1366x768.jpg" alt="" />
+                        <img height="" className='w-100 p-0 ' src={IMG7} alt="" />
                     </div>
                     <div className='pos-ab '>
                         <div className="black-box p-5 ms-4 text-white">
@@ -37,7 +38,7 @@ const About = () => {
                     <Row>
                         <div className="col-6 position-relative ">
                             <div className=''>
-                                <img className='w-100 position-relative' src="https://duruthemes.com/demo/html/carex/img/about.jpg" alt="" />
+                                <img className='w-100 position-relative pt-4' src="https://elmoanywhere.com/wp-content/uploads/2023/12/Automobile-special-workers-replacing-windscreen-or-windshield-of-a-car-in-auto-service-station-garage.-Background.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-6 ps-5">
