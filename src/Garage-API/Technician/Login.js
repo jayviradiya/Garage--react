@@ -10,8 +10,6 @@ const Login = () => {
     const history = useHistory()
 
 
-
-
     const Loginschema = Yup.object().shape({
         email: Yup.string().email().required(),
         password: Yup.string().required(),
@@ -29,7 +27,7 @@ const Login = () => {
                     }}
                     validationSchema={Loginschema}
                     onSubmit={async (values) => {
-                        axios.post('https://garage-project.onrender.com/technician/login', values)
+                        axios.post('https://garage-node.onrender.com/technician/login', values)
                             .then((res) => {
                                 console.log(res.data);
                                 localStorage.setItem('techniciantoken', res.data.token)
