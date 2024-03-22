@@ -30,7 +30,7 @@ const Header = () => {
               <ul className='d-flex mb-0  justify-content-center'>
                 <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/" className="hov text-dark ">Home</Link></li>
                 <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/about-us" className="hov text-dark ">About</Link></li>
-                {/* <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/service" className="hov text-dark ">Service</Link></li> */}
+                <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/Services" className="hov text-dark ">Service</Link></li>
                 <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/technician-login" className="hov text-dark">Technician</Link></li>
                 <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/customer-login" className="hov text-dark">Customer</Link></li>
               </ul>

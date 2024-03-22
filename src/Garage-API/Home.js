@@ -55,7 +55,7 @@ const Home = () => {
               <h6 className='fw-bold'>WHAT WE DO <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
               <h1>Our Services</h1>
               <div className='mt-4'>
-                <a href="/" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
+                <a href="/Services" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ const Home = () => {
       {/* Serive CARD  WITH Loop DATA MAP */}
       <Container fluid className='text-white mt-5'>
         <Container className="">
-          <Row className=" py-5 gap-4">
+          <Row className=" py-5 gap-5 d-flex justify-content-center"><h2 className='text-dark text-center fw-bold border-bottom border-3 pb-2'>Services</h2>
             {
               service.map((el, index) => {
                 return <Card style={{ width: '363px' }} key={index} onClick={card} className='p-0  box pos-rel'>
@@ -154,7 +154,7 @@ const Home = () => {
               </div>
             </div>
             <div className='mt-5 pt-3 text-center' >
-              <a href="/" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
+              <a href="/Services" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
             </div>
           </Row>
         </Container>

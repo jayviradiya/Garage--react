@@ -26,6 +26,7 @@ import Invoice from './Garage-API/Invoice';
 import Cprotect from './Garage-API/protector/Cprotect';
 import Footer from './Garage-API/Footer';
 import About from './Garage-API/About';
+import Services from './Services';
 
 function App() {
 
@@ -92,6 +93,10 @@ function App() {
             <About></About>
           </Route>
 
+          <Route path="/Services">
+            <Services></Services>
+          </Route>
+
         </Switch>
         <Footer />
       </Router>
@@ -100,14 +105,3 @@ function App() {
 
 }
 export default App;
-
-
-// https://preview.themeforest.net/item/carex-car-repair-auto-service-template/full_screen_preview/48668937?_ga=2.203536663.625583990.1709869595-144147480.1708001137
-
-
-
-// --------------------------- API RUN
-
-// Tech login  ->  technicain page -> add Service -> service -> Home add card click -> customer login -> vehical -> appointment -> home
-
-//  Appointment -> technicain page  card appointment no -> appoinment card click -> invoice -> home. 
