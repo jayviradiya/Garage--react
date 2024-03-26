@@ -35,7 +35,7 @@ const Header = () => {
                 <li className=' ps-4  fs-18 list-unstyled fw-bold'><Link to="/customer-login" className="hov text-dark">Customer</Link></li>
               </ul>
             </div>
-            <div className='col-4 p-0'>
+            <div className='col-4 p-0'> 
               <ul className='d-flex mb-0 justify-content-end'>
                 <li className='ps-4 fs-4 list-unstyled fw-bold'><Link  to="/" className=" hov text-dark"><FaInstagram /></Link></li>
                 <li className='ps-4 fs-4 list-unstyled fw-bold'><Link  to="/" className=" hov text-dark"><FaFacebookF /></Link></li>

@@ -30,8 +30,7 @@ const Technician = () => {
   return (
     <div>
 
-
-      <div className="container-fluid mt-5 mb-5">
+      <div className="container-fluid martop mb-5 martop">
         <div className="container">
           <div className="row">
             <div className="col-6">

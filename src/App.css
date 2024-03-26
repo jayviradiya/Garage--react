@@ -33,8 +33,9 @@
     font-size: 50px;
 }
 .f-color {
+    font-size: 25px;
     color: #000000c7;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 
 .col-4 {
@@ -50,7 +51,7 @@
 
 .details:hover {
     cursor: pointer;
-    color: #1B1A55 !important;
+    color: #ff0000 !important;
     transition: all 0.3s ease-in-out;
 }
 
@@ -84,17 +85,9 @@
 Form span {
     color: #EE3131;
 }
-
-/* .img-box {
-    cursor: pointer;
-    transform: scale(1);
-    overflow: hidden;
-    height: 300px !important;
-} */
-
 .img-box {
     overflow: hidden;
-    height: 300px !important;
+    height: 245px !important;
 }
 .box {
     transition: all .5s ease-in-out;
@@ -219,4 +212,10 @@ Form span {
 }
 .martop{
     margin-top: 100px;
+}
+.manus-mar{
+    margin-top: -100px 0px 0px 0px;
+}
+.bt-width{
+    width: 15% !important;
 }
