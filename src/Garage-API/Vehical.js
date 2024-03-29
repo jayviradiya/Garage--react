@@ -18,7 +18,7 @@ const Vehical = () => {
 
     return (
         <div className='d-flex justify-content-center align-items-center mt-4'>
-            <div className="box-1">
+            <div className="box-1 martop mb-4">
                 <h1>Vehical Page</h1>
                 <Formik
                     initialValues={{

@@ -18,8 +18,8 @@ const Invoice = () => {
   });
 
   return (
-    <div className='d-flex justify-content-center align-items-center mt-4'>
-      <div className="box-1">
+    <div className='d-flex justify-content-center align-items-center mt-4 martop'>
+      <div className="box-1 martop mb-3">
         <h1 className='mb-4 text-center'>Invoice</h1>
         <Formik
           initialValues={{

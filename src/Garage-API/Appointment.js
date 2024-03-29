@@ -20,7 +20,7 @@ const Appointment = () => {
 
     return (
         <div className='d-flex justify-content-center align-items-center mt-4'>
-            <div className="box-1">
+            <div className="box-1 martop mb-4">
                 <h1 className='mb-4 text-center'>Appointment </h1>
                 <Formik
                     initialValues={{

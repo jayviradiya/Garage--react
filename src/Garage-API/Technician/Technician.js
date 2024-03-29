@@ -46,7 +46,7 @@ const Technician = () => {
 
       <div className='container-fluid bg-lite text-dark'>
         <div className="container">
-          <div className="row d-flex py-5">
+          <div className="row d-flex py-5 mt-5 mb-5">
             {
               appoinment.map((el,index) => {
                 return <div className="col-4 p-0 bg-white m-3 bor" key={index} onClick={card}>
@@ -54,7 +54,7 @@ const Technician = () => {
                     <div className="box text-dark pos-rel">
                       <div className='p-3'>
                         <h2 className='text-center'>----- Technician -----</h2>
-                        <h4 className='pt-1 mb-0 fw-bold' >{el.appointmentDate}</h4>
+                        <h4 className='pt-1 mb-0 fw-bold' >Date : {el.appointmentDate}</h4>
                         <p className='pt-1  mb-0 fs-18'>{el.notes}</p>
                         <div className='mt-2'>
                           <a href="" className="text-dark details fw-bold ">More Details..!</a>

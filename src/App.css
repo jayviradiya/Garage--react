@@ -3,7 +3,7 @@
     /* font-family: 'Roboto', sans-serif !important; */
     font-family: "Playfair Display", serif;
     list-style: none;
-       box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 
@@ -12,9 +12,11 @@
 .bg-lite {
     background-color: #000000;
 }
-.text-color{
+
+.text-color {
     color: #929090 !important;
 }
+
 /* .box{
     background-color: #fc3d5336;
     border: dashed #fc3d54;
@@ -23,15 +25,19 @@
 .fs-18 {
     font-size: 18px;
 }
-.fs-14{
+
+.fs-14 {
     font-size: 14px;
 }
-.fs-40{
+
+.fs-40 {
     font-size: 40px;
 }
-.fs-50{
+
+.fs-50 {
     font-size: 50px;
 }
+
 .f-color {
     font-size: 25px;
     color: #000000c7;
@@ -46,7 +52,7 @@
 .bor {
     border-radius: 10px 10px 10px 10px !important;
     overflow: hidden;
-  
+
 }
 
 .details:hover {
@@ -66,10 +72,12 @@
     padding: 30px;
     margin-top: 60px;
 }
-.in-gov{
-    border:  1px solid #EE3131;
+
+.in-gov {
+    border: 1px solid #EE3131;
 }
-.ptb{
+
+.ptb {
     padding: 70px 0;
 }
 
@@ -85,14 +93,17 @@
 Form span {
     color: #EE3131;
 }
+
 .img-box {
     overflow: hidden;
     height: 245px !important;
 }
+
 .box {
     transition: all .5s ease-in-out;
     overflow: hidden;
 }
+
 .box:hover {
     box-shadow: 0px 0px 20px rgb(160, 158, 158) !important;
     transition: all .5s ease-in-out;
@@ -112,9 +123,11 @@ Form span {
     right: 20px;
     padding: 12px;
 }
-.icon-color{
+
+.icon-color {
     color: #EE3131;
 }
+
 .service {
     background-color: #EE3131;
     color: white !important;
@@ -137,35 +150,41 @@ Form span {
 }
 
 
-.line-word{
+.line-word {
     line-height: 30px;
     /* word-spacing: 10px 10px; */
 }
-.pos-ab{
+
+.pos-ab {
     position: absolute;
     top: 46%;
 }
-.black-box{
+
+.black-box {
     background: #000000b6;
     width: 40%;
 }
-.bn-btn{
+
+.bn-btn {
     background-color: #EE3131;
     padding: 15px 30px;
     border-radius: 10px;
     margin-top: 15px;
     transition: all 0.5s ease-in-out;
 }
-.bn-btn:hover{
+
+.bn-btn:hover {
     background-color: #ff0101a5;
     transition: all 0.5s ease-in-out;
 }
-.pos-about{
+
+.pos-about {
     position: absolute;
     top: 153px;
     left: 156px;
 }
-.red-card{
+
+.red-card {
     background-color: #EE3131;
     color: white;
     padding: 50px 20px;
@@ -173,13 +192,15 @@ Form span {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
-.red-card:hover{
+
+.red-card:hover {
     transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
     transition: all 0.3s ease-in-out;
 
 }
-.box-card{
+
+.box-card {
     background-color: #ffffff;
     color: black;
     padding: 50px 20px;
@@ -187,7 +208,8 @@ Form span {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
-.box-card:hover{
+
+.box-card:hover {
     background-color: #EE3131;
     color: white;
     padding: 50px 20px;
@@ -197,25 +219,45 @@ Form span {
     transform-style: preserve-3d;
     transition: all 0.3s ease-in-out;
 }
-.box-card:hover .icon-color{
+
+.box-card:hover .icon-color {
     color: white;
     transition: all 0.3s ease-in-out;
 }
-.ps-sticky{
+
+.ps-sticky {
     position: fixed;
     background-color: white;
     z-index: 999;
     top: 0;
 }
-.shadow{
+
+.shadow {
     box-shadow: 0px 0px 0px 10px black;
 }
-.martop{
+
+.martop {
     margin-top: 100px;
 }
-.manus-mar{
+
+.manus-mar {
     margin-top: -100px 0px 0px 0px;
 }
-.bt-width{
+
+.bt-width {
     width: 15% !important;
+}
+
+.bg-7 {
+    background-image: url(/src/Garage-API/Img/IMG7.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-position: center center;
+}
+
+.bg-box {
+    padding: 30px 80px;
+    border-radius: 10px;
+    background: #85858566;
 }
