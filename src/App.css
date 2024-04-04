@@ -261,3 +261,65 @@ Form span {
     border-radius: 10px;
     background: #85858566;
 }
+
+
+
+
+
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+    .bg-7{
+        background-position: -737px -58px;
+    }
+    .bg-box{
+        background: #3d3c3ca1;
+    }
+
+}
+@media (max-width: 470.98px) {
+    .fs-50{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 426px) {
+    .mt-4 a{
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+    .bg-box{
+        padding: 30px 50px;
+    }
+    .bg-box h6{
+        font-size: 13px;
+    }
+    .bg-box h1{
+        font-size: 22px;
+    }
+    .fw-bold *{
+        font-size: 13px !important;
+    }
+    .bg-7{
+        background-position: -914px -64px;
+    }
+    .col-12 a{
+            font-size: 14px;
+    }
+    .fs-50{
+        font-size: 31px;
+    }
+    .fs-40{
+        font-size: 39px;
+    }
+    .bg-box{
+        background: #3d3c3ca1;
+    }
+    
+    
+}

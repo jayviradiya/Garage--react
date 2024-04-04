@@ -5,7 +5,7 @@ import { Link, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 import IMG7 from '../Garage-API/Img/IMG7.jpg'
 import { RiServiceFill } from "react-icons/ri";
-import { Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { PiArrowBendRightDownFill } from "react-icons/pi";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
@@ -52,7 +52,7 @@ const Home = () => {
           </div> */}
           <div className="black-box bg-7 p-5 text-white d-flex align-items-center">
             <div className='bg-box'>
-              <h6 className='fw-bold'>WHAT WE DO <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
+              <h6 className='fw-bold'>WHAT WE DO <PiArrowBendRightDownFill className='fs-sm-3 fs-5 mt-2 ms-1 icon-color' /></h6>
               <h1>Our Services</h1>
               <div className='mt-4'>
                 <a href="/Services" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
@@ -94,37 +94,45 @@ const Home = () => {
       {/* Serive CARD */}
       <Container fluid className='text-white mt-5'>
         <Container className="">
-          <Row className=" py-5 gap-5 d-flex justify-content-center"><h2 className='text-dark text-center fw-bold border-bottom border-3 pb-2'>Services</h2>
+          <Row className=" py-5 d-flex justify-content-center"><h2 className='text-dark text-center fw-bold border-bottom border-3 pb-2'>Services</h2>
 
-            <Card style={{ width: '363px' }} className='p-0  box pos-rel '>
-              <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
-              <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/1200967807/photo/pouring-oil-to-car-engine.jpg?s=612x612&w=0&k=20&c=JefMe3XwYmnaZQ1He6I3ypzcFRPpub-8YFI3KK0EKKg=" /></div>
-              <Card.Body>
-                <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase manus-mar' >Oil Change</Card.Title></div>
-                <p className='pt-1  mb-2 fs-18'>We use only the highest quality oils, specifically selected to optimize your engine's performance and longevity. Whether your vehicle requires conventional, synthetic, or synthetic blend oil, we've got you covered.</p>
-                <Card.Text className='pt-1 f-color '>199$</Card.Text>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: '363px' }} className='p-0  box pos-rel '>
-              <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
-              <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/174942860/photo/tire-wash.jpg?s=612x612&w=0&k=20&c=IHqUkH8UZl1vyS02BAU5zbJ2xvE-_NMFwSXOgfr2jdI=" /></div>
-              <Card.Body>
-                <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase' >car wash</Card.Title></div>
-                <p className='pt-1  mb-2 fs-18'>We believe in protecting both your car and the environment. That's why we use only the finest, eco-friendly cleaning products and techniques, ensuring a gentle yet effective clean that's safe for your vehicle and the planet.</p>
-                <Card.Text className='pt-1 f-color '>99$</Card.Text>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: '363px' }} className='p-0  box pos-rel '>
-              <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
-              <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/1165665234/photo/car-maintenance-and-repair-mechanic-writing-checklist-paper-on-clipboard.jpg?s=612x612&w=0&k=20&c=yjR4V79WTKf6rO00v0ZqCzAoM8AZTdIlA4lP7T_dctg=" /></div>
-              <Card.Body>
-                <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase' >full service</Card.Title></div>
-                <p className='pt-1  mb-2 fs-18'> We use only the highest quality parts and products, ensuring lasting performance and reliability.Our team of certified technicians has the skills and expertise to handle any automotive challenge, big or small.</p>
-                <Card.Text className='pt-1 f-color '>499$</Card.Text>
-              </Card.Body>
-            </Card>
+            <div className='col-md-6 col-lg-4 pt-5 pb-3'>
+              <Card className='p-0  box pos-rel '>
+                <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
+                <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/1200967807/photo/pouring-oil-to-car-engine.jpg?s=612x612&w=0&k=20&c=JefMe3XwYmnaZQ1He6I3ypzcFRPpub-8YFI3KK0EKKg=" /></div>
+                <Card.Body>
+                  <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase manus-mar' >Oil Change</Card.Title></div>
+                  <p className='pt-1  mb-2 fs-18'>We use only the highest quality oils, specifically selected to optimize your engine's performance and longevity. Whether your vehicle requires conventional, synthetic, or synthetic blend oil, we've got you covered.</p>
+                  <Card.Text className='pt-1 f-color '>199$</Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className='col-md-6 col-lg-4 pt-5 pb-3'>
+              <Card className='p-0  box pos-rel '>
+                <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
+                <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/174942860/photo/tire-wash.jpg?s=612x612&w=0&k=20&c=IHqUkH8UZl1vyS02BAU5zbJ2xvE-_NMFwSXOgfr2jdI=" /></div>
+                <Card.Body>
+                  <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase' >car wash</Card.Title></div>
+                  <p className='pt-1  mb-2 fs-18'>We believe in protecting both your car and the environment. That's why we use only the finest, eco-friendly cleaning products and techniques, ensuring a gentle yet effective clean that's safe for your vehicle and the planet.</p>
+                  <Card.Text className='pt-1 f-color '>99$</Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className='col-md-6 col-lg-4  pt-5 pb-3'>
+              <Card className='p-0  box pos-rel '>
+                <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
+                <div className="img-box"><Card.Img variant="top" className='p-0' src="https://media.istockphoto.com/id/1165665234/photo/car-maintenance-and-repair-mechanic-writing-checklist-paper-on-clipboard.jpg?s=612x612&w=0&k=20&c=yjR4V79WTKf6rO00v0ZqCzAoM8AZTdIlA4lP7T_dctg=" /></div>
+                <Card.Body>
+                  <div className='icon-color'><Card.Title className='mb-2 fw-bold text-uppercase' >full service</Card.Title></div>
+                  <p className='pt-1  mb-2 fs-18'> We use only the highest quality parts and products, ensuring lasting performance and reliability.Our team of certified technicians has the skills and expertise to handle any automotive challenge, big or small.</p>
+                  <Card.Text className='pt-1 f-color '>499$</Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
 
-            <a href="/services" className="details p-3 text-center text-dark fs-5 fw-bold bt-width">More Details <FaArrowRightLong /></a>
+            <Col xs={12} className='d-flex justify-content-center'>
+              <a href="/services" className="details text-center text-dark fw-bold">More Details <FaArrowRightLong /></a>
+            </Col>
           </Row>
         </Container>
       </Container>
