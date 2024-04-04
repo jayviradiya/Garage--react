@@ -307,6 +307,8 @@ Form span {
     }
     .bg-7{
         background-position: -914px -64px;
+        height: 90vh;
+
     }
     .col-12 a{
             font-size: 14px;
