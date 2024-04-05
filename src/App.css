@@ -299,7 +299,7 @@ Form span {
     .bg-box h6{
         font-size: 13px;
     }
-    .bg-box h1{
+    .bg-box h1{ 
         font-size: 22px;
     }
     .fw-bold *{
@@ -307,8 +307,6 @@ Form span {
     }
     .bg-7{
         background-position: -914px -64px;
-        height: 70vh;
-
     }
     .col-12 a{
             font-size: 14px;
