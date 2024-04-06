@@ -263,6 +263,15 @@ Form span {
 }
 
 
+.d-end{
+    display: flex;
+    justify-content: end;
+}
+
+.d-flexx{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
@@ -271,7 +280,16 @@ Form span {
 
 @media (max-width: 1199.98px) {}
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    .d-end{
+        justify-content: center;
+    }
+    .top{
+        margin-top: 25px;
+        text-align: end;
+    }
+    
+}
 
 @media (max-width: 767.98px) {
     .bg-7{
