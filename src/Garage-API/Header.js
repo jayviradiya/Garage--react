@@ -66,7 +66,7 @@ const Header = () => {
                   <Nav className="d-flex top justify-content-between">
                     <Nav.Link as={Link} to="/" className='text-black ps-5 fs-5 hov'>Home</Nav.Link>
                     <Nav.Link as={Link} to="/about-us" className='text-black ps-5 fs-5 hov'>About</Nav.Link>
-                    <Nav.Link as={Link} to="/all/service" className='text-black ps-5 fs-5 hov'>Service</Nav.Link>
+                    <Nav.Link as={Link} to="/Services" className='text-black ps-5 fs-5 hov'>Service</Nav.Link>
                     <Nav.Link as={Link} to="/technician-login" className='text-black ps-5 fs-5 hov'>Technician</Nav.Link>
                     <Nav.Link as={Link} to="/customer-login" className='text-black ps-5 fs-5 hov'>Customer</Nav.Link>
                   </Nav>
