@@ -51,6 +51,8 @@ const Header = () => {
         </Container>
       </Container> */}
 
+
+
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid className='ps-sticky py-2 border-bottom shadow'>
           <Container>
@@ -59,9 +61,9 @@ const Header = () => {
                 <Navbar.Brand href="/"><img src="https://autocare.dexignlab.com/xhtml/images/logo-black.png" width={200} className='pt-2' alt="" /></Navbar.Brand>
               </div>
               <div className='col-6 d-flexx justify-content-end'>
-                <Navbar.Toggle aria-controls="basic-navbar-nav " className='' />
-                <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-end'>
-                  <Nav className="d-flex top justify-content-center">
+                <Navbar.Toggle aria-controls="basic-navbar-nav " className='bn-btnn' />
+                <Navbar.Collapse id="basic-navbar-nav" className='d-end'> 
+                  <Nav className="d-flex top justify-content-between">
                     <Nav.Link as={Link} to="/" className='text-black ps-5 fs-5 hov'>Home</Nav.Link>
                     <Nav.Link as={Link} to="/about-us" className='text-black ps-5 fs-5 hov'>About</Nav.Link>
                     <Nav.Link as={Link} to="/all/service" className='text-black ps-5 fs-5 hov'>Service</Nav.Link>
