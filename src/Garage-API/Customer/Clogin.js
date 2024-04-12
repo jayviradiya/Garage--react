@@ -14,7 +14,7 @@ const Clogin = () => {
 
   return (
     <div className='d-flex justify-content-center align-items-center my-5'>
-      <div className="box-1">
+      <div className="box-1 mt-5">
         <h1 className='mb-4 text-white'>Customer <span className='icon-color'>Login</span> </h1>
         <Formik
           initialValues={{

@@ -63,14 +63,11 @@
 
 .box-1 {
     width: 500px;
-    /* height: 600px; */
     border: 1px solid #EE3131;
     background-color: #000000;
     color: #EE3131;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px #7FC7D9; */
     padding: 30px;
-    margin-top: 60px;
 }
 
 .in-gov {
@@ -78,7 +75,7 @@
 }
 
 .ptb {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .button {
@@ -338,9 +335,19 @@ Form span {
     .fs-40{
         font-size: 39px;
     }
+    .fs-18{
+        font-size: 14px !important;
+    }
     .bg-box{
         background: #3d3c3ca1;
     }
-    
+    .box-1 {
+        width: 350px;
+        padding: 40px;
+    }
+    .button {
+        width: 28%;
+        padding: 6px;
+    }
     
 }

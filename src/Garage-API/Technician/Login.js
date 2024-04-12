@@ -57,7 +57,7 @@ const Login = () => {
                             <button type="submit" className='button'>Submit</button>
                         </div>
 
-                        <p className='text-center mt-3 bor'><Link to="/technician-signup" className="text-white">Don't Have An Account ? <span className='icon-color'>Please Signup</span></Link></p>
+                        <p className='text-center mt-3 bor'><Link to="/technician-signup" className="text-white fs-18">Don't Have An Account ? <span className='icon-color'>Please Signup</span></Link></p>
                     </Form>
                 </Formik>
             </div>

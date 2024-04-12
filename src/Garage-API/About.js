@@ -18,14 +18,11 @@ const About = () => {
         <div>
 
             {/* Main Img */}
-            <Container fluid className='mt-5  '>
+            <Container fluid className='mt-4'>
                 <Row>
-                    <div className='p-0'>
-                        <img height="" className='w-100 p-0 ' src={IMG7} alt="" />
-                    </div>
-                    <div className='pos-ab '>
-                        <div className="black-box p-5 ms-4 text-white">
-                            <h6 className='fw-bold'>WELCOME TO <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
+                    <div className="black-box bg-7 p-5 text-white d-flex align-items-center">
+                        <div className='bg-box'>
+                            <h6 className='fw-bold'>WELCOME TO <PiArrowBendRightDownFill className='fs-sm-3 fs-5 mt-2 ms-1 icon-color' /></h6>
                             <h1>Auto<span className='icon-color'>Care</span> Car <br></br> Service & Repair</h1>
                         </div>
                     </div>
@@ -36,12 +33,12 @@ const About = () => {
             <Container fluid className='ptb bg-lite text-white'>
                 <Container className=''>
                     <Row>
-                        <div className="col-6 position-relative ">
+                        <div className="col-md-6 col-12 position-relative ">
                             <div className=''>
                                 <img className='w-100 position-relative pt-4' src="https://elmoanywhere.com/wp-content/uploads/2023/12/Automobile-special-workers-replacing-windscreen-or-windshield-of-a-car-in-auto-service-station-garage.-Background.jpg" alt="" />
                             </div>
                         </div>
-                        <div className="col-6 ps-5">
+                        <div className="col-md-6 col-12 ps-md-5 py-4">
                             <h6 className=' ps-2 fs-14'>ABOUT US <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
                             <h1 className='fs-40'>Auto<span className='icon-color'>Care</span> Car <br /> Service & Repair</h1>
                             <p className='line-word text-color'>Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu euismod nisl massa ut odio in the miss volume placerat urna, a lacinia eros nunta urna mauris, vehicula rutrum tempus in the interdum felis.</p>
@@ -53,7 +50,7 @@ const About = () => {
                                 </ul>
                             </div>
                             <div className='mt-4'>
-                                <a href="/" className="text-white fw-bold bn-btn">Read More <FaLongArrowAltRight /></a>
+                                <a href="/about-us" className="text-white fw-bold bn-btn">Read More <FaLongArrowAltRight /></a>
                             </div>
                         </div>
                     </Row>
@@ -70,36 +67,36 @@ const About = () => {
                         </div>
                     </Row>
                     <Row>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-12 p-lg-3 py-4">
                             <div className="red-card ">
                                 <h1 className='mb-3'><BiSolidCarMechanic /></h1>
-                                <h2 className='mb-3 '>Book appointment</h2>
+                                <h2 className='mb-3 '>Book <br /> appointment</h2>
                                 <p className=''>Car lorem quisque sodales the varius vestibulum felis.</p>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-12 p-lg-3 py-4">
                             <div className="box-card">
                                 <h1 className='mb-3'><FaCarSide className='icon-color' /></h1>
-                                <h2 className='mb-3 '>Bring your Vehicle</h2>
+                                <h2 className='mb-3 '>Bring your <br /> Vehicle</h2>
                                 <p className=''>Car lorem quisque sodales the varius vestibulum felis.</p>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-12 p-lg-3 py-4">
                             <div className="box-card">
                                 <h1 className='mb-3'><MdCarCrash className='icon-color' /></h1>
                                 <h2 className='mb-3 '>Get the Vehicle Repaired</h2>
-                                <p className=''>Car lorem quisque sodales the varius vestibulum felis.</p>
+                                <p className='fs-6'>Car lorem quisque sodales the varius vestibulum felis.</p>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-12 p-lg-3 py-4">
                             <div className="box-card">
                                 <h1 className='mb-3'><PiCertificate className='icon-color' /></h1>
-                                <h2 className='mb-3 '>Ready for Deliver</h2>
+                                <h2 className='mb-3 '>Ready for <br /> Deliver</h2>
                                 <p className=''>Car lorem quisque sodales the varius vestibulum felis.</p>
                             </div>
                         </div>
                         <div className='mt-5 pt-3 text-center' >
-                            <a href="/" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
+                            <a href="/Services" className="text-white fw-bold bn-btn">Book Now <FaLongArrowAltRight /></a>
                         </div>
                     </Row>
                 </Container>

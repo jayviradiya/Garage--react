@@ -47,9 +47,6 @@ const Home = () => {
       {/* Main Img */}
       <Container fluid className='mt-4  '>
         <Row>
-          {/* <div className='p-0'>
-            <img height="" className='w-100 p-0' src={IMG7} alt="" />
-          </div> */}
           <div className="black-box bg-7 p-5 text-white d-flex align-items-center">
             <div className='bg-box'>
               <h6 className='fw-bold'>WHAT WE DO <PiArrowBendRightDownFill className='fs-sm-3 fs-5 mt-2 ms-1 icon-color' /></h6>
@@ -94,7 +91,7 @@ const Home = () => {
       {/* Serive CARD */}
       <Container fluid className='text-white mt-5'>
         <Container className="">
-          <Row className=" py-5 d-flex justify-content-center"><h2 className='text-dark text-center fw-bold border-bottom border-3 pb-2'>Services</h2>
+          <Row className=" py-2 d-flex justify-content-center"><h2 className='text-dark text-center fw-bold border-bottom border-3 pb-2'>Services</h2>
 
             <div className='col-md-6 col-lg-4 pt-5 pb-3'>
               <Card className='p-0  box pos-rel '>

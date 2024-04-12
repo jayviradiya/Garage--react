@@ -20,8 +20,8 @@ const Csignup = () => {
 
     return (
         <div className='d-flex justify-content-center align-items-center my-5'>
-            <div className="box-1">
-                <h1 className='mb-4 text-white'>Customer <span className='icon-color'>Sign</span>up</h1>
+            <div className="box-1 mt-5">
+                <h1 className='mb-4 text-white text-center'>Customer <span className='icon-color'>Sign</span>up</h1>
                 <Formik
                     initialValues={{
                         fname: '',
@@ -44,7 +44,7 @@ const Csignup = () => {
                     }}
                 >
                     <Form className='d-flex flex-column'>
-                        <div className="d-flex">
+                        <div className="d-block d-sm-flex">
                             <div>
                                 <label htmlFor="fname" className='fw-bold' >fname : </label>
                                 <Field id="fname" className='in-gov' name="fname" placeholder="fname" />
@@ -74,7 +74,7 @@ const Csignup = () => {
                                 />
                                 <span><ErrorMessage name='email' /><br /><br /></span>
 
-                                <label htmlFor="password" className='fw-bold'>password :</label>
+                                <label htmlFor="password" className='fw-bold fs-14'>password :</label>
                                 <Field id="password" className='in-gov' name="password" placeholder="password" />
                                 <span><ErrorMessage name='password' /><br /><br /></span>
                             </div>
@@ -83,7 +83,7 @@ const Csignup = () => {
                         <div className='d-flex justify-content-center'>
                             <button type="submit" className='button'>Submit</button>
                         </div>
-                        <p className='text-center mt-3'><Link to="customer-login" className="text-dark "><span className='icon-color'>Already Have An Account.?</span></Link></p>
+                        <p className='text-center mt-3'><Link to="customer-login" className="text-dark fs-18"><span className='icon-color'>Already Have An Account.?</span></Link></p>
                     </Form>
                 </Formik>
             </div>
