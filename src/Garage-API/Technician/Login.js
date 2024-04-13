@@ -19,7 +19,7 @@ const Login = () => {
     return (
         <div className='d-flex justify-content-center align-items-center mt-4 mb-5'>
             <div className="box-1 martop">
-                <h1 className='mb-4 text-white'> Technician <span className='icon-color'>Login</span> page  </h1>
+                <h1 className='mb-4 text-white'> Technician <span className='icon-color'>Login</span></h1>
                 <Formik
                     initialValues={{
                         email: '',

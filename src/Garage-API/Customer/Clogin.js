@@ -53,7 +53,7 @@ const Clogin = () => {
             <div className='d-flex justify-content-center'>
               <button type="submit" className='button'>Submit</button>
             </div>
-            <p className='text-center mt-3 bor'><Link to="/customer-signup" className="text-white bor">Don't Have An Account ? <span className='icon-color'>Please Signup</span></Link></p>
+            <p className='text-center mt-3 bor'><Link to="/customer-signup" className="text-white bor fs-18">Don't Have An Account ? <span className='icon-color'>Please Signup</span></Link></p>
 
           </Form>
         </Formik>
