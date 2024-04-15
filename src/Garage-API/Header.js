@@ -64,21 +64,21 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav " className='bn-btnn' />
                 <Navbar.Collapse id="basic-navbar-nav" className='d-end'> 
                   <Nav className="d-flex top justify-content-between">
-                    <Nav.Link as={Link} to="/" className='text-black ps-5 fs-5 hov'>Home</Nav.Link>
-                    <Nav.Link as={Link} to="/about-us" className='text-black ps-5 fs-5 hov'>About</Nav.Link>
-                    <Nav.Link as={Link} to="/Services" className='text-black ps-5 fs-5 hov'>Service</Nav.Link>
-                    <Nav.Link as={Link} to="/technician-login" className='text-black ps-5 fs-5 hov'>Technician</Nav.Link>
-                    <Nav.Link as={Link} to="/customer-login" className='text-black ps-5 fs-5 hov'>Customer</Nav.Link>
+                    <Nav.Link  href="/" className='text-black ps-5 fs-5 hov'>Home</Nav.Link>
+                    <Nav.Link  href="/about-us" className='text-black ps-5 fs-5 hov'>About</Nav.Link>
+                    <Nav.Link  href="/Services" className='text-black ps-5 fs-5 hov'>Service</Nav.Link>
+                    <Nav.Link  href="/technician-login" className='text-black ps-5 fs-5 hov'>Technician</Nav.Link>
+                    <Nav.Link  href="/customer-login" className='text-black ps-5 fs-5 hov'>Customer</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </div>
               <div className="col-4 d-flex d-none d-lg-block">
                 <Navbar.Collapse id="basic-navbar-nav" className='d-end'>
                   <Nav className="d-flex mt-2 justify-content-end">
-                    <Nav.Link as={Link} to="/" className='text-black ps-4 fs-5 hov'><FaInstagram /></Nav.Link>
-                    <Nav.Link as={Link} to="/about-us" className='text-black ps-4 fs-5 hov'><FaFacebookF /></Nav.Link>
-                    <Nav.Link as={Link} to="/all/service" className='text-black ps-4 fs-5 hov'><FaTwitter /></Nav.Link>
-                    <Nav.Link as={Link} to="/technician-login" className='text-black ps-4 fs-5 hov'><FaGooglePlusG /></Nav.Link>
+                    <Nav.Link  href="/" className='text-black ps-4 fs-5 hov'><FaInstagram /></Nav.Link>
+                    <Nav.Link  href="/about-us" className='text-black ps-4 fs-5 hov'><FaFacebookF /></Nav.Link>
+                    <Nav.Link  href="/all/service" className='text-black ps-4 fs-5 hov'><FaTwitter /></Nav.Link>
+                    <Nav.Link  href="/technician-login" className='text-black ps-4 fs-5 hov'><FaGooglePlusG /></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
               </div>
